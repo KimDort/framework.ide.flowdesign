@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            id="framework.editor.flowdesigner.editors.MainEditorPage"
+            name="Sample Multi-page Editor"
+            icon="icons/sample.png"
+            extensions="java"
+            class="framework.editor.flowdesigner.editors.MainEditorPage"
+            contributorClass="framework.editor.flowdesigner.editors.MultiPageEditorContributor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.adapters">
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+   </extension>
+
+</plugin>
